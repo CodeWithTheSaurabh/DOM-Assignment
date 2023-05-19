@@ -1,0 +1,102 @@
+/* Here is my css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+/* background-color: lightblue; */
+background-image: url("https://wallpapersmug.com/download/1366x768/b2b1ac/digits-binary-multi-colors.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#container{
+    width: 350px;
+    height: 350px;
+    border: 5px solid rgb(21, 216, 34);
+    border-radius: 5px 30px 30px 5px;
+    display: grid;
+    background-color:#a020f0fd;
+}
+
+h2{
+    text-align: center;
+    color: rgb(242, 242, 242);
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#screen{
+text-align: center;
+font-weight: 900;
+font-size: 35px;
+color: rgb(50, 255, 50);
+background-color: black;
+width: 45px;
+height: 40px;
+margin-left: 35%
+
+}
+
+#inrc{
+width: 150px;
+height: 45px;
+padding: 5px;
+border-radius: 10px;
+border: 2px solid white;
+font-size: 13px;
+font-weight: 900;
+
+}
+
+#dnrc{
+    width: 150px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+#res{
+    width: 150px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+#section{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:18%;
+}
+
+ @media only screen and (max-width :600px){
+    #container{
+        width: 280px;
+        
+    }
+
+    
+   body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNcVfvP0i8f7tNY3PiPymAexeC7Ya3QAlMWQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+background-attachment: fixed;  
+ }
+    
+ }
+
+
+ 
+
