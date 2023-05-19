@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.click-btn{
+    border: 2px solid rgb(241, 230, 230);
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 25px;
+    background-color: green;
+    color: white;
+cursor:pointer;
+}
+
+.click-btn:hover{
+    padding: 17px;
+}

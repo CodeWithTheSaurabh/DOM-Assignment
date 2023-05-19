@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+#display {
+    color: yellow;
+  }
+  
+  #input-box {
+    font-size: 25px;
+  }
+  
